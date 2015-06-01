@@ -1,0 +1,5 @@
+<ul>
+  {{#each model as |timer|}}
+  <li>{{link-to timer.id "results.index" timer}}</li>
+  {{/each}}
+</ul>
